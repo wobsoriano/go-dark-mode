@@ -27,7 +27,7 @@ func main() {
   darkmode.Toggle()
 
   v := darkMode.IsEnabled()
-  fmt.PrintF("is dark mode: %s", v)
+  fmt.Printf("is dark mode: %s", v)
 }
 ```
 
